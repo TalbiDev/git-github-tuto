@@ -18,6 +18,34 @@
 
 > git restore <file>
 
-# commit ( as make backup with a version at some point)
+# commit ( as make backup with a version at a point)
 
 > git commit -m "message"
+
+# Show changes between commits
+
+> git diff <file>
+
+# restore last version committed
+
+> git checkout <file>
+
+# add remote repository (github)
+
+> git remote push <name> <url>
+
+# show name of remote (origin)
+
+> git remote show origin
+
+# show branch
+
+> git branch
+
+# create new branch
+
+> git branch <branch-name>
+
+# Switch to new branch
+
+> git checkout <branch-name>

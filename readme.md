@@ -8,7 +8,7 @@
 
 # add file to track a changes,to update what will be committed)
 
-> git add <filename>
+> git add (file)
 
 # add all files
 
@@ -16,7 +16,7 @@
 
 # to discard changes in working directory
 
-> git restore <file>
+> git restore (file)
 
 # commit ( as make backup with a version at a point)
 
@@ -24,15 +24,16 @@
 
 # Show changes between commits
 
-> git diff <file>
+> git diff (file)
 
 # restore last version committed
 
-> git checkout <file>
+> git checkout (file)
 
 # add remote repository (github)
 
-> git remote push <name> <url>
+> git remote push (name) (url)
+> git push origin master
 
 # show name of remote (origin)
 
@@ -44,8 +45,8 @@
 
 # create new branch
 
-> git branch <branch-name>
+> git branch (branch-name)
 
 # Switch to new branch
 
-> git checkout <branch-name>
+> git checkout (branch-name)

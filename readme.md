@@ -6,9 +6,9 @@
 
 > git status
 
-# add file to track a changes,to update what will be committed)
+# add file to track a changes,to update what will be committed"
 
-> git add (file)
+> git add "file"
 
 # add all files
 
@@ -16,26 +16,29 @@
 
 # to discard changes in working directory
 
-> git restore (file)
+> git restore "file"
 
-# commit ( as make backup with a version at a point)
+# commit " as make backup with a version at a point"
 
 > git commit -m "message"
 
 # Show changes between commits
 
-> git diff (file)
+> git diff "file"
 
 # restore last version committed
 
-> git checkout (file)
+> git checkout "file"
 
-# add remote repository (github)
+# add remote repository "github"
 
-> git remote push (name) (url)
+> git remote push "name" "url"
+
+## or
+
 > git push origin master
 
-# show name of remote (origin)
+# show name of remote "origin"
 
 > git remote show origin
 
@@ -45,8 +48,8 @@
 
 # create new branch
 
-> git branch (branch-name)
+> git branch "branch-name"
 
 # Switch to new branch
 
-> git checkout (branch-name)
+> git checkout "branch-name"

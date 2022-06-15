@@ -53,3 +53,7 @@
 # Switch to new branch
 
 > git checkout "branch-name"
+
+# push in new branch
+
+> git push -u origin "branch1"

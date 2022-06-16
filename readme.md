@@ -57,3 +57,7 @@
 # push in new branch
 
 > git push -u origin "branch1"
+
+# merge branchs
+
+> git merge master branch1
